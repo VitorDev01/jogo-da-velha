@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+
+</head>
+<body>
+    <h1 class="jogo da velha"></h1>
+
+    <div id="buttons-conteiner">
+        <button id="2-players">2 Jogadores</button>
+        <button id="ai-player">Contra IA</button>
+    </div>
+
+ <div id="conteiner"  class="">
+    <!--9 divs para os noves espaços do jogo-->
+      <div class="box" id="block-1"></div>
+      <div class="box" id="block-2"></div>
+      <div class="box" id="block-3"></div>
+      <div class="box" id="block-4"></div>
+      <div class="box" id="block-5"></div>
+      <div class="box" id="block-6"></div>
+      <div class="box" id="block-7"></div>
+      <div class="box" id="block-8"></div>
+      <div class="box" id="block-9"></div>
+      
+      <div id="scoreboard-conteiner">
+        <h2>Placar</h2>
+      <!--span que representa o placar-->
+      <span class="score-box">
+      <!--span para mostrar quem esta com qual placar-->
+        <span id="x-board">X</span>:
+        <span id="scoreboard-1">0</span>
+      </span>   
+      <span class="score-box"> 
+        <span id="x-board"></span>:
+        <span id="scoreboard-2">0</span>
+     </span>
+    </div>
+  </div>
+
+  <div class="hide">
+    <div class="x">X</div>
+    <div class="o"></div>
+  </div>
+
+  <div id="message" class="hide">
+    <p>onichan</p>
+  </div>
+    <script src="js.js"></script>
+</body>
+</html>
